@@ -82,6 +82,6 @@ module.exports = {
         ]
       },
     ],
-    lastUpdated: false, // string | boolean
+    lastUpdated: '落笔于', // string | boolean
   },
 }

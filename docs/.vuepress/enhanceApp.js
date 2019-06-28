@@ -12,13 +12,16 @@ if (typeof window !== 'undefined') {
   
   (function appDivToApp(document) {
     const body = document.getElementsByTagName('body')[0];
+    console.dir(body);
     const liveReContainer = document.createElement('div');
-    setTimeout(() => {
-      const aside = document.getElementsByClassName('sidebar')[0];
-      const { clientWidth } = aside;
-      // liveReContainer.style
-      liveReContainer.style.marginLeft = `${clientWidth}px`;
-    }, 1000);
+    if (body.clientWidth > 475) {
+      setTimeout(() => {
+        const aside = document.getElementsByClassName('sidebar')[0];
+        const { clientWidth } = aside;
+        // liveReContainer.style
+        liveReContainer.style.marginLeft = `${clientWidth}px`;
+      }, 1000);
+    }
     liveReContainer.id = 'lv-container';
     liveReContainer.setAttribute('data-id', 'city');
     liveReContainer.setAttribute('data-uid', 'MTAyMC80NDkyNS8yMTQ0Nw==');
