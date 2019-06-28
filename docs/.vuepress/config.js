@@ -1,5 +1,5 @@
 module.exports = {
-  base: '/vue-press-blog/',
+  base: '/live-in-the-world/',
   title: '以梦为马',
   description: '笔头落下，生活跃然纸上',
   themeConfig: {
