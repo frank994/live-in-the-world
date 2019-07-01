@@ -1,7 +1,17 @@
+const path = require('path');
+
 module.exports = {
   base: '/live-in-the-world/',
   title: '以梦为马',
   description: '笔头落下，生活跃然纸上',
+  configureWebpack: (config, isServer) => {
+    if (!isServer) {
+      // config.resolve.alias['@AlgoliaSearchBox'] = path.resolve(__dirname, './theme/components/AlgoliaSearchBox.vue');
+      // config.resolve.alias['@SearchBox'] = path.resolve(__dirname, '../../node_modules/@vuepress/plugin-search/SearchBox.vue');
+      // config.resolve.alias['@theme'] = path.resolve(__dirname, '../theme');
+      console.log(config.alias);
+    }
+  },
   themeConfig: {
     sidebar: [
       {
