@@ -61,6 +61,7 @@ module.exports = {
               ['/poem/2019/June/Bagan-3.md', 'June - 蒲甘之三'],
               ['/poem/2019/June/Rain In Yangon.md', 'June - 仰光的雨'],
               ['/poem/2019/June/Yangtze Bridge.md', 'June - 长江大桥'],
+              ['/poem/2019/June/Rain In Shengsi.md', 'June - 嵊泗的雨'],
             ],
           },
         ],
