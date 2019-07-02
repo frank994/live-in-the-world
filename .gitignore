@@ -2,4 +2,5 @@ node_modules
 docs/.vuepress/dist
 docs/.DS_Store
 .DS_Store
+package-lock.json
 # docs/.vuepress/public
