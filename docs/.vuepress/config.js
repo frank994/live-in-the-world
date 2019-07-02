@@ -3,7 +3,11 @@ const path = require('path');
 module.exports = {
   base: '/live-in-the-world/',
   title: '无来往',
+  port: 8081,
   description: '笔头落下，生活跃然纸上',
+  head: [
+    ['link', { rel: 'icon', href: '/download.png' }]
+  ],
   // configureWebpack: (config, isServer) => {
   //   if (!isServer) {
   //     // config.resolve.alias['@theme'] = path.resolve(__dirname, '../theme');
