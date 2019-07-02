@@ -69,6 +69,8 @@ module.exports = {
               ['/poem/2019/June/Yangtze Bridge.md', 'June - 长江大桥'],
               ['/poem/2019/June/Rain In Shengsi.md', 'June - 嵊泗的雨'],
               ['/poem/2019/June/Boat And Fish.md', 'June - 船儿和鱼'],
+              ['/poem/2019/June/The Girl Meet in Shengsi.md', 'June - 献给嵊泗遇见的姑娘'],
+              ['/poem/2019/June/Should not Be Quiet in Night.md', 'June - 夜晚绝不应是宁静的'],
             ],
           },
         ],
