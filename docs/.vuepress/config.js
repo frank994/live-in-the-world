@@ -56,7 +56,7 @@ module.exports = {
                 ]
               },
               {
-                title: 'June',
+                title: 'Jun.',
                 // path: '/poem/2019/June/',
                 sidebarDepth: 2,
                 children: [
@@ -96,6 +96,15 @@ module.exports = {
                   ['/poem/2019/June/The Girl Meet in Shengsi.md', '献给嵊泗遇见的姑娘'],
                   ['/poem/2019/June/Should not Be Quiet in Night.md', '夜晚绝不应是宁静的'],
                 ],
+              },
+              {
+                title: 'Jul.',
+                // path: '/poem/2019/May/',
+                sidebarDepth: 2,
+                children: [
+                  ['/poem/2019/July/Marina.md', '玛莲娜'],
+                  ['/poem/2019/July/The Bohimian Girl.md', '波西米亚女孩'],
+                ]
               },
             ],
           },
