@@ -102,6 +102,7 @@ module.exports = {
                 // path: '/poem/2019/May/',
                 sidebarDepth: 2,
                 children: [
+                  ['/poem/2019/July/Boy.md', '男孩'],
                   ['/poem/2019/July/Marina.md', '玛莲娜'],
                   ['/poem/2019/July/The Bohimian Girl.md', '波西米亚女孩'],
                 ]
