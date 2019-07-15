@@ -157,6 +157,15 @@ module.exports = {
                   ['/write/2019/June/World.md', 'World'],
                 ],
               },
+              {
+                title: 'July',
+                collapsable: true,
+                // path: '/write/2019/June/',
+                sidebarDepth: 2,
+                children: [
+                  ['/write/2019/July/A Day.md', '浮游一日'],
+                ],
+              },
             ],
           },
         ]

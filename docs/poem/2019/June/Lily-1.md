@@ -20,7 +20,7 @@ with thy, my Lily.
 
 Thy are everything to me.
 
-You are a fairy, yes my fairy
+Thy are a fairy, yes my fairy
 
 My everything
 
