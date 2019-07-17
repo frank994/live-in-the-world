@@ -8,11 +8,6 @@ module.exports = {
   head: [
     ['link', { rel: 'icon', href: '/download.png' }]
   ],
-  // configureWebpack: (config, isServer) => {
-  //   if (!isServer) {
-  //     // config.resolve.alias['@theme'] = path.resolve(__dirname, '../theme');
-  //   }
-  // },
   themeConfig: {
     nav: [
       {
@@ -166,6 +161,40 @@ module.exports = {
                   ['/write/2019/July/A Day.md', '浮游一日'],
                 ],
               },
+            ],
+          },
+        ]
+      },
+      {
+        title: '读',   // 必要的
+        path: '/read/',      // 可选的, 应该是一个绝对路径
+        collapsable: true, // 可选的, 默认值是 true,
+        sidebarDepth: 1,    // 可选的, 默认值是 1
+        children: [
+          {
+            title: '2019',
+            path: '/read/2019/',
+            collapsable: true,
+            sidebarDepth: 1,
+            children: [
+              {
+                title: 'Work',
+                // path: '/daily/2019/June/',
+                collapsable: true,
+                sidebarDepth: 1,
+                children: [
+                  ['/read/2019/work/Blog.md', '博客'],
+                  ['/read/2019/work/Immortal Code.md', '代码不朽'],
+                  ['/read/2019/work/You do not Know about Javascript.md', '你不知道的Javascript'],
+                ],
+              },
+              // {
+              //   title: 'July',
+              //   // path: '/daily/2019/July/',
+              //   collapsable: true,
+              //   sidebarDepth: 1,
+              //   children: [],
+              // },
             ],
           },
         ]
