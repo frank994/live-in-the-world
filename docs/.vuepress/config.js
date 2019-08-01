@@ -229,6 +229,31 @@ module.exports = {
           },
         ]
       },
+      {
+        title: '行',   // 必要的
+        path: '/route/',      // 可选的, 应该是一个绝对路径
+        collapsable: true, // 可选的, 默认值是 true,
+        sidebarDepth: 1,    // 可选的, 默认值是 1
+        children: [
+          {
+            title: '2019',
+            path: '/route/2019/',
+            collapsable: true,
+            sidebarDepth: 1,
+            children: [
+              {
+                title: 'August',
+                // path: '/daily/2019/July/',
+                collapsable: true,
+                sidebarDepth: 1,
+                children: [
+                  ['/route/2019/August/Mt. Cool.md', '清凉峰'],
+                ],
+              },
+            ],
+          },
+        ]
+      },
     ],
     lastUpdated: '落笔于', // string | boolean
     serviceWorker: {
