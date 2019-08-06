@@ -103,6 +103,19 @@ module.exports = {
                   ['/poem/2019/July/The Bohimian Girl.md', '波西米亚女孩'],
                 ]
               },
+              {
+                title: 'Aug.',
+                // path: '/poem/2019/May/',
+                sidebarDepth: 2,
+                children: [
+                  ["/poem/2019/August/Rain.md", '雨'],
+                  ['/poem/2019/August/Barren.md', '荒'],
+                  ["/poem/2019/August/Young man.md", '少年'],
+                  ['/poem/2019/August/In the top of Mountain cool.md', '清凉山巅'],
+                  ["/poem/2019/August/Mountain's day.md", '山上的日子'],
+                  ['/poem/2019/August/Between the wind and the fog.md', '风和雾之间'],
+                ]
+              },
             ],
           },
         ],
@@ -231,13 +244,13 @@ module.exports = {
       },
       {
         title: '行',   // 必要的
-        path: '/route/',      // 可选的, 应该是一个绝对路径
+        path: '/travel/',      // 可选的, 应该是一个绝对路径
         collapsable: true, // 可选的, 默认值是 true,
         sidebarDepth: 1,    // 可选的, 默认值是 1
         children: [
           {
             title: '2019',
-            path: '/route/2019/',
+            path: '/travel/2019/',
             collapsable: true,
             sidebarDepth: 1,
             children: [
@@ -247,7 +260,7 @@ module.exports = {
                 collapsable: true,
                 sidebarDepth: 1,
                 children: [
-                  ['/route/2019/August/Mt. Cool.md', '清凉峰'],
+                  ['/travel/2019/August/Mt. Cool.md', '清凉峰'],
                 ],
               },
             ],
