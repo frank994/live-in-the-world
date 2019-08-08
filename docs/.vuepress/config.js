@@ -255,7 +255,7 @@ module.exports = {
             sidebarDepth: 1,
             children: [
               {
-                title: 'August',
+                title: '八月',
                 // path: '/daily/2019/July/',
                 collapsable: true,
                 sidebarDepth: 1,
@@ -263,6 +263,24 @@ module.exports = {
                   ['/travel/2019/August/Mt. Cool.md', '清凉峰'],
                 ],
               },
+            ],
+          },
+          {
+            title: '2015',
+            // path: '/daily/2019/July/',
+            collapsable: true,
+            sidebarDepth: 1,
+            children: [
+              ['/travels/2015/Tibet.md', '西藏'],
+            ],
+          },
+          {
+            title: '2016',
+            // path: '/daily/2019/July/',
+            collapsable: true,
+            sidebarDepth: 1,
+            children: [
+              ['/travels/2016/Tibet.md', '西藏'],
             ],
           },
         ]
