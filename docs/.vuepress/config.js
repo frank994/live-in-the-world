@@ -116,6 +116,13 @@ module.exports = {
                   ['/poem/2019/August/Between the wind and the fog.md', '风和雾之间'],
                 ]
               },
+              {
+                title: 'Oct.',
+                sidebarDepth: 2,
+                children: [
+                  ["/poem/2019/October/Window.md", '窗'],
+                ]
+              }
             ],
           },
         ],
@@ -172,6 +179,38 @@ module.exports = {
                 sidebarDepth: 2,
                 children: [
                   ['/write/2019/July/A Day.md', '浮游一日'],
+                ],
+              },
+              {
+                title: 'August',
+                collapsable: true,
+                sidebarDepth: 2,
+                children: [
+                  ['/write/2019/August/The Memory of Aunt.md', '姑妈回忆录'],
+                ],
+              },
+              {
+                title: 'August',
+                collapsable: true,
+                sidebarDepth: 2,
+                children: [
+                  ['/write/2019/August/The Memory of Aunt.md', '姑妈回忆录'],
+                ],
+              },
+              {
+                title: 'November',
+                collapsable: true,
+                sidebarDepth: 2,
+                children: [
+                  ['/write/2019/November/20191026.md', '20191026'],
+                  ['/write/2019/November/Cowardness.md', '怯懦'],
+                  ['/write/2019/November/See in Taiwan.md', '台湾19年国庆所见所闻'],
+                  ['/write/2019/November/Trip in Taiwan.md', '台湾行'],
+                  ['/write/2019/November/Listen Borams.md', '听勃拉姆斯'],
+                  ['/write/2019/November/None.md', '无'],
+                  ['/write/2019/November/None1.md', '无1'],
+                  ['/write/2019/November/Flood.md', '洪流'],
+                  ['/write/2019/November/Pokhara.md', '记博卡拉'],
                 ],
               },
             ],
@@ -261,6 +300,15 @@ module.exports = {
                 sidebarDepth: 1,
                 children: [
                   ['/travel/2019/August/Mt. Cool.md', '清凉峰'],
+                ],
+              },
+              {
+                title: '十一月',
+                // path: '/daily/2019/July/',
+                collapsable: true,
+                sidebarDepth: 1,
+                children: [
+                  ['/travel/2019/August/Peak. Huangcun.md', '龙泉荒村尖'],
                 ],
               },
             ],
