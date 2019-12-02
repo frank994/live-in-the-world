@@ -122,6 +122,16 @@ module.exports = {
                 children: [
                   ["/poem/2019/October/Window.md", '窗'],
                 ]
+              },
+              {
+                title: 'Nov.',
+                sidebarDepth: 2,
+                children: [
+                  ["/poem/2019/November/Dawn.md", '暮色'],
+                  ["/poem/2019/November/Dead Mood.md", '枯木'],
+                  ["/poem/2019/November/Moon.md", '月亮'],
+                  ["/poem/2019/November/Peak Huangcun.md", '荒村尖'],
+                ]
               }
             ],
           },
@@ -179,14 +189,6 @@ module.exports = {
                 sidebarDepth: 2,
                 children: [
                   ['/write/2019/July/A Day.md', '浮游一日'],
-                ],
-              },
-              {
-                title: 'August',
-                collapsable: true,
-                sidebarDepth: 2,
-                children: [
-                  ['/write/2019/August/The Memory of Aunt.md', '姑妈回忆录'],
                 ],
               },
               {
@@ -308,7 +310,7 @@ module.exports = {
                 collapsable: true,
                 sidebarDepth: 1,
                 children: [
-                  ['/travel/2019/August/Peak. Huangcun.md', '龙泉荒村尖'],
+                  ['/travel/2019/November/Peak. Huangcun.md', '龙泉荒村尖'],
                 ],
               },
             ],
@@ -319,7 +321,7 @@ module.exports = {
             collapsable: true,
             sidebarDepth: 1,
             children: [
-              ['/travels/2015/Tibet.md', '西藏'],
+              ['/travel/2015/Tibet.md', '西藏'],
             ],
           },
           {
@@ -328,7 +330,7 @@ module.exports = {
             collapsable: true,
             sidebarDepth: 1,
             children: [
-              ['/travels/2016/Tibet.md', '西藏'],
+              ['/travel/2016/Xinjiang.md', '新疆'],
             ],
           },
         ]
