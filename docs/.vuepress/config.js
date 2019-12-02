@@ -127,10 +127,34 @@ module.exports = {
                 title: 'Nov.',
                 sidebarDepth: 2,
                 children: [
+                  ["/poem/2019/November/God.md", '神'],
+                  ["/poem/2019/November/Sky.md", '天际'],
+                  ["/poem/2019/November/Sun.md", '太阳'],
+                  ["/poem/2019/November/Zixi.md", '紫溪'],
                   ["/poem/2019/November/Dawn.md", '暮色'],
-                  ["/poem/2019/November/Dead Mood.md", '枯木'],
                   ["/poem/2019/November/Moon.md", '月亮'],
+                  ["/poem/2019/November/Giant.md", '巨人'],
+                  ["/poem/2019/November/Blind.md", '失明'],
+                  ["/poem/2019/November/Red Moon.md", '红月'],
+                  ["/poem/2019/November/Midnight.md", '子夜'],
+                  ["/poem/2019/November/Dead Mood.md", '枯木'],
+                  ["/poem/2019/November/One Thousand.md", '一千'],
+
+                  ["/poem/2019/November/A Light.md", '一阵光'],
+                  ["/poem/2019/November/The Moment.md", '这一刻'],
                   ["/poem/2019/November/Peak Huangcun.md", '荒村尖'],
+
+                  ["/poem/2019/November/TwoAM.md", '凌晨二更'],
+                ]
+              },
+              {
+                title: 'Dec.',
+                sidebarDepth: 2,
+                children: [
+                  ["/poem/2019/December/Bird.md", '鸟儿'],
+                  ["/poem/2019/December/One Second.md", '一秒'],
+                  ["/poem/2019/December/Sun.md", '太阳'],
+                  ["/poem/2019/December/洁莹.md", '洁莹'],
                 ]
               }
             ],
@@ -242,13 +266,6 @@ module.exports = {
                   ['/read/2019/work/You do not Know about Javascript.md', '你不知道的Javascript'],
                 ],
               },
-              // {
-              //   title: 'July',
-              //   // path: '/daily/2019/July/',
-              //   collapsable: true,
-              //   sidebarDepth: 1,
-              //   children: [],
-              // },
             ],
           },
         ]
