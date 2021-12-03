@@ -117,3 +117,8 @@ only safe when situation is below:
 - Error Handling
   - getDerivedStateFromError
   - componentDidCatch
+
+
+### React Hooks
+
+### React Router V6
