@@ -29,7 +29,7 @@ Let's get into the Skiing Tutorial now!
 
 Since it's a sport with specific equipments, which means we need to know our kits first.
 
-What we gonna to use are: a pair of **skiing boards,** a pair of **skiing shoes**, a pair of **poles**, that's the basic one.
+What we gonna to use are: a pair of **ski boards,** a pair of **ski shoes**, a pair of **poles**, that's the basic one.
 
 For all the high-speed sports,  it's the most important thing to learn how to control it.
 
@@ -58,3 +58,4 @@ I mean, take the brake, right?
 ### Curving
 - Big
 - Small
+  - Pulling the ski board
