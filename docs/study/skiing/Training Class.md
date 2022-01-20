@@ -21,6 +21,12 @@ Let's get into the Skiing Tutorial now!
 
 
 
+### Principles
+
+重心转换、压板、立刃
+
+Transfer Balance、Holding the Ski、Edge
+
 ## First Step
 
 
