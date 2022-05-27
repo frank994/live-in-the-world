@@ -10,3 +10,10 @@ Film Tone
     - Exposure
 
     - Art Direction
+
+- FIlm blocking
+
+- Film Tone
+
+- Production Design
+
